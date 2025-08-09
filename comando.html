@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<meta charset="UTF-8" />
+<title>PABD - Comandos SQL</title>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: 'Franklin Gothic Medium', sans-serif;
+        font-size: 16px;
+    }
+
+    body {
+        background-color: #8ac4ed;
+        color: #333;
+        line-height: 1.5;
+    }
+
+    header {
+        background-color: #0d47a1;
+        color: white;
+        text-align: center;
+        padding: 30px 0;
+        position: relative;
+    }
+
+    .logo-site {
+        position: absolute;
+        top: 10px;
+        left: 20px;
+    }
+    .Ícone SQL
+
+
+    nav {
+        background-color: #0d47a1;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    nav a {
+        color: white;
+        font-weight: bold;
+        text-decoration: #0d47a1;
+        margin: 0 15px;
+    }
+
+    nav a:hover {
+        text-decoration: underline;
+    }
+
+    section {
+        background-color: #bbdefb;
+        width: 720px;
+        margin: 20px auto;
+        padding: 20px;
+    }
+
+    h2 {
+        color: #0d47a1 font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    h3 {
+        color: #1565c0;
+        font-size: 1.2em;
+        margin-top: 20px;
+    }
+
+
+
+    ul {
+        margin-top: 10px;
+        padding-left: 20px;
+        
+    }
+
+    a {
+        color: #0d47a1
+    }
+
+    footer {
+        background-color: #0d47a1;
+        color: white;
+        text-align: center;
+        padding: 15px;
+        margin-top: 40px;
+    }
+
+    pre {
+        background-color: #0d47a1;
+        padding: 10px;
+        border-radius: 5px;
+        font-family: monospace;
+        margin-top: 10px
+    }
+</style>
+
+</head>
+
+<body>
+    <header>
+        <h1>Programação com Acesso
+            a Banco de Dados</h1>
+        <p>IFRN - Campus Santa Cruz</p>
+        <img src="banco.png" alt="Logo do site" class="logo-site" width="80" height="80" />
+
+    </header>
+    <nav>
+        <a href="index.html">Início</a>
+        
+        <a href="equipe.html"> Equipe</a>
+        <a href=" #fonte">Fonte</a>
+    </nav>
+    <section id="comandos">
+        <h2>Comandos SQL</h2>
+        <img src="sqll.png" alt="Ícone SQL" claass="" width="300" height="250" />
+
+        <h3>
+            DDL- Data Definition Language
+        </h3>
+        <p> Define e altera a estrutura do banco de dados.</p>
+        <pre>CREATE TABLE alunos(...);</pre>
+        <pre> ALTER TABLE alunos ADD;</pre>
+        <pre>DROP TABLE alunos;</pre>
+
+        <h3>DML - Data Manipulation Language</h3>
+        <p>Manipula os dados dentro das tabelas.</p>
+        <pre>INSERT INTO alunos VALUES (...);</pre>
+        <pre>UPDATE alunos SET ... WHERE ...;</pre>
+        <pre>DELETE FROM alunos WHERE ...;</pre>
+        <pre>SELECT * FROM alunos;</pre>
+    </section>
+
+   
+        </ul>
+    </section>
+    <section id="fonte">
+        <h2>Fonte</h2>
+        <p><strong>Fonte:</strong> - Comandos Básicos em SQL</p>
+        <p>
+            <a href="https://programae.org.br/cursoprogramacao/glossario/o-que-e-banco-de-dados-em-programacao/"
+                target="_blank">
+                O que é banco de dados em programação? - Programaê!
+            </a>
+        </p>
+
+    </section>
+    <footer>
+        <p>Trabalho de Autoria Web | IFRN - Campus Santa Cruz</p>
+        <p><strong>Professor responsável:</strong> Marcelo Figueiredo Barbosa Júnior</p>
+        <ul>
+            <p><strong>Alunos:</strong>
+                Sarah Joquebede,
+                Júlio Gabriel,
+                Israelly Lorrany.</p>
+            <img src="if.png" alt="Ícone IFRN" width="200" height="100">
+
+            </p>
+    </footer>
+</body>
+
+</html>
